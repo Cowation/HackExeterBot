@@ -13,30 +13,40 @@ const client = new Discord.Client({
   ]
 });
 
-// const getUsers = async () => {
-//   const guild = await client.guilds.fetch("960286927741919263");
-//   const members = await guild.members.fetch();
-//   const users = members.map(member => member.user);
+const getUsers = async () => {
+  const guild = await client.guilds.fetch("960286927741919263");
+  const members = await guild.members.fetch();
+  const users = members.map(member => member.user);
 
-//   return users;
-// }
+  return users;
+}
 
 const infoEmbed = {
   title: "HackExeter 2022",
   color: "#C70039",
   description: "A hackathon hosted by Phillips Exeter Academy.",
   thumbnail: {
-    url: "https://cdn.discordapp.com/icons/960286927741919263/9730f24c2c8f754eae88ea2cf49fc128.webp?size=128"
+    url: "https://cdn.discordapp.com/app-icons/843140101663621162/12dcc36445b6936bd6e2e47dd8f81e3f.png?size=128"
   },
   fields: [
     {
-      name: "For general questions:",
+      name: "Schedule:",
+      value: "[Visit #schedule](https://discord.com/channels/960286927741919263/960286928119423073)",
+      inline: true
+    },
+    {
+      name: "Questions:",
       value: "[Visit #questions](https://discord.com/channels/960286927741919263/960286928429781014)",
       inline: true
     },
     {
-      name: "For coding help:",
+      name: "Coding help:",
       value: "[Visit #coding-help](https://discord.com/channels/960286927741919263/960286928429781015)",
+      inline: true
+    },
+    {
+      name: "General info:",
+      value: "[Visit Devpost](https://hack-exeter-2022.devpost.com/?ref_feature=challenge&ref_medium=your-open-hackathons&ref_content=Upcoming)",
       inline: true
     }
   ],
@@ -44,11 +54,6 @@ const infoEmbed = {
   footer: {
     text: "HACKEXETER.COM"
   }
-}
-
-const getUsers = async () => {
-  const user = await client.users.fetch("530564482590572544");
-  return [user];
 }
 
 const notifyAll = async (event) => {
