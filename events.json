@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Team Registration and Networking",
+    "startTime": "0 10 14 5 *",
+    "embed": {
+      "color": "#C70039",
+      "description": "Now's the time to start making teams!\n`Team registrations close at 3:00 PM EST.`",
+      "fields": [
+        {
+          "name": "Already have a team?",
+          "value": "[Register on Devpost](https://hack-exeter-2022.devpost.com/?ref_feature=challenge&ref_medium=your-open-hackathons&ref_content=Upcoming)",
+          "inline": true
+        },
+        {
+          "name": "Don't have a team?",
+          "value": "[Find teammates](https://discord.com/channels/960286927741919263/960286928429781016)",
+          "inline": true
+        }
+      ]
+    }
+  },
+  {
+    "name": "Opening Ceremony",
+    "startTime": "0 11 14 5 *",
+    "embed": {
+      "color": "#C70039",
+      "description": "Basic guidelines and hackathon theme will be revealed!\n\n[Join the ceremony](https://google.com)"
+    }
+  },
+  {
+    "name": "Competition Start",
+    "startTime": "0 12 14 5 *",
+    "embed": {
+      "color": "#C70039",
+      "description": "Start hacking, everyone!\n`All submissions are due no later than 10:00 AM EST May 15, 2022.`"
+    }
+  },
+  {
+    "name": "Workshop 1",
+    "startTime": "0 13 14 5 *",
+    "embed": {
+      "color": "#C70039",
+      "description": ""
+    }
+  },
+  {
+    "name": "Workshop 2",
+    "startTime": "0 14 14 5 *",
+    "embed": {
+      "color": "#C70039",
+      "description": ""
+    }
+  },
+  {
+    "name": "Team Registrations Closed",
+    "startTime": "0 15 14 5 *",
+    "embed": {
+      "color": "#C70039",
+      "description": "New registrations from this point on will not be accepted."
+    }
+  },
+  {
+    "name": "Zoom Help Session Closed",
+    "startTime": "0 21 14 5 *",
+    "embed": {
+      "color": "#C70039",
+      "description": "Best of luck on your project!"
+    }
+  },
+  {
+    "name": "Project Presentations Begin",
+    "startTime": "0 10 15 5 *",
+    "embed": {
+      "color": "#C70039",
+      "description": ""
+    }
+  },
+  {
+    "name": "Awards Ceremony & Closing Remarks",
+    "startTime": "0 14 15 5 *",
+    "embed": {
+      "color": "#C70039",
+      "description": "[Join the ceremony]()"
+    }
+  }
+]
